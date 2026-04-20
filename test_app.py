@@ -18,7 +18,7 @@ def client():
     with app.test_client() as client:
         yield client
 
-    # 尝试删除临时文件，如果被占用则忽略（Windows 常见）
+    # 尝试删除临时文件，如果被占用则忽略
     try:
         if os.path.exists(db_path):
             os.remove(db_path)
