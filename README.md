@@ -1,6 +1,12 @@
 # 简易仓库管理系统
 
-基于 Flask + SQLite 的仓库管理 REST API，支持物品的创建、查询、入库、出库、删除操作。
+简易的仓库管理 REST API，支持物品的创建、查询、入库、出库、删除操作。
+
+| 组件 | 技术 |
+| --- | --- |
+| Web | Flask |
+| 数据库 | SQLite + sqlite3 |
+| 测试框架 | pytest + Flask test client|
 
 ## 快速开始
 
